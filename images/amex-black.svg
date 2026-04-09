@@ -1,0 +1,38 @@
+<svg viewBox="0 0 340 214" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="340" y2="214" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d4a843"/>
+      <stop offset="100%" stop-color="#b8922e"/>
+    </linearGradient>
+  </defs>
+  <!-- Card body -->
+  <rect width="340" height="214" rx="12" fill="url(#bg)"/>
+  <rect x="1" y="1" width="338" height="212" rx="11" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <!-- Chip -->
+  <rect x="32" y="72" width="46" height="34" rx="5" fill="url(#chip)"/>
+  <line x1="32" y1="82" x2="78" y2="82" stroke="rgba(0,0,0,0.15)" stroke-width="0.5"/>
+  <line x1="32" y1="90" x2="78" y2="90" stroke="rgba(0,0,0,0.15)" stroke-width="0.5"/>
+  <line x1="32" y1="98" x2="78" y2="98" stroke="rgba(0,0,0,0.15)" stroke-width="0.5"/>
+  <line x1="55" y1="72" x2="55" y2="106" stroke="rgba(0,0,0,0.15)" stroke-width="0.5"/>
+  <!-- Card title -->
+  <text x="32" y="46" font-family="'Montserrat', sans-serif" font-size="11" font-weight="600" letter-spacing="3" fill="rgba(255,255,255,0.5)">BLACK CARD</text>
+  <!-- Centurion emblem (geometric knight helmet) -->
+  <g transform="translate(270, 28)" fill="rgba(255,255,255,0.12)">
+    <path d="M20 0 L40 15 L36 40 L4 40 L0 15 Z"/>
+    <rect x="12" y="18" width="16" height="3" rx="1"/>
+    <rect x="16" y="24" width="8" height="12" rx="1"/>
+  </g>
+  <!-- Card number dots -->
+  <text x="32" y="140" font-family="'Inter', monospace" font-size="16" letter-spacing="2" fill="rgba(255,255,255,0.4)">••••  ••••  ••••  ••••</text>
+  <!-- Cardholder -->
+  <text x="32" y="170" font-family="'Inter', sans-serif" font-size="10" font-weight="500" letter-spacing="1" fill="rgba(255,255,255,0.3)">CARD MEMBER SINCE 2020</text>
+  <!-- Premium text -->
+  <text x="32" y="196" font-family="'Montserrat', sans-serif" font-size="9" font-weight="700" letter-spacing="4" fill="rgba(212,168,67,0.6)">PREMIUM</text>
+  <!-- Subtle shine -->
+  <rect x="0" y="0" width="340" height="214" rx="12" fill="url(#bg)" opacity="0"/>
+  <ellipse cx="280" cy="40" rx="100" ry="60" fill="rgba(255,255,255,0.02)"/>
+</svg>

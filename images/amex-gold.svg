@@ -1,0 +1,37 @@
+<svg viewBox="0 0 340 214" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldbg" x1="0" y1="0" x2="340" y2="214" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#d4a843"/>
+      <stop offset="40%" stop-color="#e8c860"/>
+      <stop offset="100%" stop-color="#b8860b"/>
+    </linearGradient>
+    <linearGradient id="gchip" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0d060"/>
+      <stop offset="100%" stop-color="#c9a029"/>
+    </linearGradient>
+  </defs>
+  <!-- Card body -->
+  <rect width="340" height="214" rx="12" fill="url(#goldbg)"/>
+  <rect x="1" y="1" width="338" height="212" rx="11" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <!-- Subtle texture -->
+  <ellipse cx="300" cy="50" rx="120" ry="80" fill="rgba(255,255,255,0.06)"/>
+  <!-- Chip -->
+  <rect x="32" y="72" width="46" height="34" rx="5" fill="url(#gchip)"/>
+  <line x1="32" y1="82" x2="78" y2="82" stroke="rgba(0,0,0,0.1)" stroke-width="0.5"/>
+  <line x1="32" y1="90" x2="78" y2="90" stroke="rgba(0,0,0,0.1)" stroke-width="0.5"/>
+  <line x1="32" y1="98" x2="78" y2="98" stroke="rgba(0,0,0,0.1)" stroke-width="0.5"/>
+  <line x1="55" y1="72" x2="55" y2="106" stroke="rgba(0,0,0,0.1)" stroke-width="0.5"/>
+  <!-- Card title -->
+  <text x="32" y="46" font-family="'Montserrat', sans-serif" font-size="11" font-weight="600" letter-spacing="3" fill="rgba(255,255,255,0.7)">GOLD CARD</text>
+  <!-- Emblem -->
+  <g transform="translate(275, 30)" fill="rgba(255,255,255,0.2)">
+    <circle cx="18" cy="18" r="16" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/>
+    <polygon points="18,4 22,14 32,14 24,20 27,30 18,24 9,30 12,20 4,14 14,14"/>
+  </g>
+  <!-- Card number dots -->
+  <text x="32" y="140" font-family="'Inter', monospace" font-size="16" letter-spacing="2" fill="rgba(255,255,255,0.5)">••••  ••••  ••••  ••••</text>
+  <!-- Cardholder -->
+  <text x="32" y="170" font-family="'Inter', sans-serif" font-size="10" font-weight="500" letter-spacing="1" fill="rgba(255,255,255,0.4)">CARD MEMBER SINCE 2020</text>
+  <!-- Premier Rewards -->
+  <text x="32" y="196" font-family="'Montserrat', sans-serif" font-size="9" font-weight="700" letter-spacing="3" fill="rgba(100,60,0,0.5)">PREMIER REWARDS</text>
+</svg>
